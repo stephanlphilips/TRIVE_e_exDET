@@ -1,0 +1,19 @@
+/* Set a background image by replacing the URL below */
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3) ), url('../images/bg_splahs.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
+}
+
+.myBackgroundlight {
+  background-color: rgba(236,240,241, 0.6);
+  color: inherit;
+}
+
+.myBackgrounddark {
+  background-color: rgba(0,0,0, 0.8);
+  color: inherit;
+}
+
