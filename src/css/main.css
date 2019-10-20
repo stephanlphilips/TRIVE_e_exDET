@@ -1,4 +1,19 @@
-#information{
-	background-color:Blue;
-	color:Indigo;
+/* Set a background image by replacing the URL below */
+body {
+  background: linear-gradient( rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.1) ), url('../images/working.jpg') no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  background-size: cover;
+  -o-background-size: cover;
 }
+
+.myBackgroundlight {
+  background-color: rgba(236,240,241, 0.9);
+  color: inherit;
+}
+
+.myBackgrounddark {
+  background-color: rgba(0,0,0, 0.8);
+  color: inherit;
+}
+
